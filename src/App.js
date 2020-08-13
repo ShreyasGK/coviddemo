@@ -23,7 +23,7 @@ export const AuthContext = React.createContext();
 const initialState = {
   isAuthenticated: false,
   user: null,
-  name: null
+  name: null,
   //token: null
 };
 
@@ -37,7 +37,7 @@ const reducer = (state, action) => {
         ...state,
         isAuthenticated: true,
         user: action.payload.hcode,
-        name: action.payload.name
+        name: action.payload.name,
         //token: action.payload.token
       };
     case "LOGOUT":
