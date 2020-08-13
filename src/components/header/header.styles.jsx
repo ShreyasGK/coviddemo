@@ -7,6 +7,7 @@ export const OptionContainerStyles = css`
 `;
 
 export const HeaderContainer = styled.div`
+    backgroundColor:"#2dce89";
     height: 70px;
     width: 100%;
     display: flex;

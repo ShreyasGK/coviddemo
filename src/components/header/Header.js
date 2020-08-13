@@ -16,8 +16,9 @@ const Header = () => {
     <div
       className="ui secondary pointing menu"
       style={{
-        backgroundColor: "#1b1c1d",
-        overflow: "hidden",
+        backgroundColor:"#2dce89",
+        zIndex: 9999,
+        overflow: "null",
         position: "fixed",
         top: 0,
         left: 0,

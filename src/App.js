@@ -107,7 +107,7 @@ const App = () => {
                     <div className="left">
                       <div
                         className="ui visible sidebar inverted vertical menu"
-                        style={{ top: 90 }}
+                        style={{ top: 90 ,backgroundColor:"#2dce89"}}
                       >
                         <Link to="/" className="item">
                           Insights
