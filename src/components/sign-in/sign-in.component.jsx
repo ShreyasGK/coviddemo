@@ -12,8 +12,8 @@ const SignIn = () => {
   
   const { dispatch } = React.useContext(AuthContext);
   const initialState = {
-    hospitalCode: "HSP1",
-    password: "qwert123",
+    hospitalCode: "",
+    password: "",
     isSubmitting: false,
     errorMessage: null
   };
